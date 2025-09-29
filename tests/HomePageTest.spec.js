@@ -6,12 +6,13 @@ test('Home Page DemoBlaze', async ({ page }) => {
 
   // Verify page title
   const pageTitle = await page.title();
-  console.log('Page title is:', pageTitle); // ✅ log the actual title
+  console.log('Page title is:', pageTitle); 
+
   await expect(page).toHaveTitle('STORE');
 
   // Verify current URL
   const pageURL = page.url();
-  console.log('Page URL is:', pageURL);   // ✅ log the actual URL
+  console.log('Page URL is:', pageURL);   
   await expect(page).toHaveURL('https://www.demoblaze.com/index.html');
 
   // Close page (optional)

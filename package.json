@@ -2,10 +2,10 @@
   "name": "playwright-automation",
   "version": "1.0.0",
   "description": "Playwright automation project",
-  "type": "module",       
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test",
+    "test": "playwright tests",
     "report": "playwright show-report"
   },
   "keywords": [
