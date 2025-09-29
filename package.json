@@ -1,11 +1,19 @@
 {
-  "name": "playwriteautomtion",
+  "name": "playwright-automation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright automation project",
+  "type": "module",       
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing"
+  ],
+  "author": "Shashi",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.55.1",
